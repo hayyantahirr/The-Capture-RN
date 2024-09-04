@@ -5,13 +5,18 @@ const styles = StyleSheet.create({
     fontWeight: "bold",
     color: "#fff",
     textAlign: "center",
-    marginTop: 50,
+    
   },
   subtitle: {
     fontSize: 16,
     color: "#fff",
     textAlign: "center",
-    marginTop: 10,
+    
+  },
+  titlecontainer: {
+    flex: 1,
+    justifyContent: "center",
+    alignItems: "center",
   },
 });
 export default styles;
