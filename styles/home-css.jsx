@@ -1,4 +1,5 @@
 import { StyleSheet } from "react-native";
+
 const styles = StyleSheet.create({
   title: {
     fontSize: 20,
@@ -10,35 +11,45 @@ const styles = StyleSheet.create({
     fontSize: 16,
     color: "#fff",
     textAlign: "center",
-    marginBottom: 20, // Added spacing below subtitle
+    marginBottom: 20,
   },
   titlecontainer: {
-    marginTop: 100,
-    alignItems: "center",
-  },
-
-  cameraContainer: {
     flex: 1,
     alignItems: "center",
     justifyContent: "center",
+    // borderColor: "red",
+    // borderWidth: 2,
+  },
+  cameraContainer: {
+    flex: 2, // Camera takes up most of the space
+    alignItems: "flex-start",
+    justifyContent: "flex-end",
     width: "100%",
-    height: 300, // Adjust the height as needed
-    marginBottom: 20, // Spacing below the camera
+    // borderColor: "red",
+    // borderWidth: 2,
+    marginBottom: 10,
+    borderRadius: 20,
   },
   camera: {
+    flex: 1,
     width: "100%",
-    height: "100%",
+  },
+  cameraControlContainer: {
+    position: "absolute",
+    bottom: 20,
+    alignSelf: "center",
   },
   buttonContainer: {
-    flexDirection: "row",
-    backgroundColor: "transparent",
-    margin: 20,
+    flex: 1,
+    alignItems: "center",
+    justifyContent: "flex-start",
+    // borderColor: "red",
+    // borderWidth: 2,
   },
   button: {
-    alignSelf: "center",
     backgroundColor: "#2196F3",
     padding: 10,
-    borderRadius: 5,
+    borderRadius: 180,
   },
   text: {
     fontSize: 18,
@@ -46,4 +57,5 @@ const styles = StyleSheet.create({
     color: "white",
   },
 });
+
 export default styles;
