@@ -7,7 +7,7 @@ import {
   TouchableOpacity,
   View,
 } from "react-native";
-import { StatusBar } from "expo-status-bar";
+
 import { useRef, useState } from "react";
 import { CameraView, useCameraPermissions } from "expo-camera";
 // import { CameraType } from "expo-camera/build/legacy/Camera.types";
